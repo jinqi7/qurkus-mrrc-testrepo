@@ -1,0 +1,24 @@
+
+---
+metadata:
+  version: "1.0"
+artifacts:
+- type: "maven"
+  filename: "maven-repository/ca/uhn/hapi/fhir/hapi-deployable-pom/7.6.1.redhat-00001/hapi-deployable-pom-7.6.1.redhat-00001.pom"
+  attributes:
+    artifact_id: "hapi-deployable-pom"
+    group_id: "ca.uhn.hapi.fhir"
+    repository_url: "https://indy.corp.redhat.com/api/content/maven/group/static"
+    type: "pom"
+    version: "7.6.1.redhat-00001"
+  checksum: "sha1:cf5596dd9402548657cc84dcd6d90b6017ae883d"
+- type: "maven"
+  filename: "maven-repository/ca/uhn/hapi/fhir/hapi-fhir-base/7.6.1.redhat-00001/hapi-fhir-base-7.6.1.redhat-00001-sources.jar"
+  attributes:
+    artifact_id: "hapi-fhir-base"
+    classifier: "sources"
+    group_id: "ca.uhn.hapi.fhir"
+    repository_url: "https://indy.corp.redhat.com/api/content/maven/group/static"
+    type: "jar"
+    version: "7.6.1.redhat-00001"
+  checksum: "sha1:42a58cad4402e4c79c743f87f4db97b1eab468a0"
